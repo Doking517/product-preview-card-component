@@ -20,7 +20,7 @@
 	align-items: center;
 	justify-content: center;
 	height: 70%;
-	width: 40%;
+	width: 43%;
 	/* border: 2px solid red; */
 	border-radius: 15px;
 }
@@ -48,7 +48,7 @@
 .top-title {
 	font-family: 'poppin-regular';
 	font-weight: 100;
-	color: #a6a8af;
+	color: #808088;
 	letter-spacing: 5px;
 	padding: 2px 0;
 }
@@ -60,14 +60,13 @@
 	font-size: xx-large;
 }
 .paragraph {
-	padding-top: 0.5rem;
-	letter-spacing: 0.5px;
+	padding-top: 2rem;
 	font-family: 'poppin-regular';
-	color: #a6a8af;
+	color: #808088;
 }
 
 .prices {
-	padding-top: 1rem;
+	padding-top: 1.5rem;
 	display: flex;
 	align-items: center;
 	gap: 1rem;
@@ -82,10 +81,13 @@
 	text-decoration: line-through;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: bolder;
-	color: #a6a8af;
+	color: #808088;
 }
 .add-to-card {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bolder;
 	margin: 1rem;
+	margin-top: 1.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -99,3 +101,5 @@
 	color: white;
 	border: 1px solid #3d8168;
 }
+
+/* responsive part */
