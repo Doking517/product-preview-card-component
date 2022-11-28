@@ -21,7 +21,6 @@
 	justify-content: center;
 	height: 70%;
 	width: 43%;
-	/* border: 2px solid red; */
 	border-radius: 15px;
 }
 .left {
@@ -103,3 +102,47 @@
 }
 
 /* responsive part */
+
+@media (max-width: 1024px) and (max-width: 1440px) {
+	.container {
+		height: 100vh;
+		width: 100vw;
+	}
+	.card {
+		margin: 2rem;
+		display: block;
+		height: 65%;
+		width: 90%;
+		border: 2px solid black;
+	}
+	.left {
+		background-image: url('../images/image-product-mobile.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 35%;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 0;
+	}
+	.right {
+		height: 65%;
+		width: 100%;
+		padding: 1.7rem;
+	}
+	.top-title {
+		padding: 0.5px 0;
+		letter-spacing: 3px;
+	}
+	.big-title {
+		font-size: x-large;
+		padding-top: 1px;
+	}
+	.paragraph {
+		padding-top: 5px;
+	}
+	.prices {
+		padding-top: 0.5rem;
+	}
+}
