@@ -61,7 +61,7 @@
 }
 .paragraph {
 	padding-top: 0.5rem;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	font-family: 'poppin-regular';
 	color: #a6a8af;
 }
@@ -99,4 +99,3 @@
 	color: white;
 	border: 1px solid #3d8168;
 }
-
